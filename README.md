@@ -260,7 +260,7 @@ Berikut adalah bagian dari starter code yang diselesaikan atau dimodifikasi sesu
 ## Tautan
 
 - **GitHub Repository:** [https://github.com/vivinst/student-swing-game-project](https://github.com/vivinst/student-swing-game-project)
-- **Video Demo YouTube:** [https://youtu.be/[video-id]](https://youtu.be/[video-id])
+- **Video Demo YouTube:** [[https://youtu.be/[video-id]](https://youtu.be/[video-id](https://youtu.be/k2NGfoeyM_U)])
 
 ---
 
