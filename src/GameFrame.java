@@ -7,7 +7,7 @@ public class GameFrame extends JFrame {
     private PlayerService playerService;
     private GameLogic     gameLogic;
 
-    private JButton[][] buttons;   // papan 3x3
+    private JButton[][] buttons;  
     private JLabel      lblStatus;
     private boolean     gameOver;
 
@@ -23,12 +23,12 @@ public class GameFrame extends JFrame {
         setLocationRelativeTo(null);
         setResizable(false);
 
-        // Status label
+       
         lblStatus = new JLabel("Your turn (X)", SwingConstants.CENTER);
         lblStatus.setFont(new Font("SansSerif", Font.BOLD, 14));
         lblStatus.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0));
 
-        // Papan 3x3
+        
         JPanel boardPanel = new JPanel(new GridLayout(3, 3, 5, 5));
         boardPanel.setBorder(BorderFactory.createEmptyBorder(5, 20, 5, 20));
         buttons = new JButton[3][3];
